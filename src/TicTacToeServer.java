@@ -32,7 +32,7 @@ public class TicTacToeServer
 
     public static void main(String[] args) throws Exception
     {
-        try (ServerSocket listener = new ServerSocket(42069))
+        try (ServerSocket listener = new ServerSocket(58901))
         {
             System.out.println("Tic Tac Toe Server is Running...");
             ExecutorService pool = Executors.newFixedThreadPool(200);
